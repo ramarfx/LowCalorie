@@ -1,0 +1,49 @@
+.flex-container {
+  display: flex !important;
+}
+
+.centerclass {
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+/* Content */
+.content-introduction, .content-exercise-explanation, .calculation-results {
+  padding: 3% 5%;
+}
+
+.content {
+  background-color: #CDCDCD;
+  padding: 5% 0;
+}
+
+
+.explanation-column-middle {
+  padding: 0 3%;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: white;
+}
+
+.main-text {
+  font-weight: bold;
+}
+
+.vrsta {
+  margin-top: 7%;
+}
+
+.Pria {
+  color: #0033cc;
+}
+
+.Wanita {
+  color: #800080;
+}
+
+
