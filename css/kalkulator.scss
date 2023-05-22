@@ -3,6 +3,7 @@
     width          : 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .kalkulator-container{
@@ -13,10 +14,13 @@
 }
 
 .a{
-
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
 
     .kiri{
         justify-content: center;
+        width: 100%;
     }
 }
 //Untuk tablet
