@@ -14,13 +14,15 @@
 }
 
 .a {
-  flex-direction: column;
   width: 50%;
   justify-content: center;
 }
 .a .kiri {
   justify-content: center;
   width: 100%;
+}
+.a .kanan {
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
