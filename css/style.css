@@ -267,9 +267,14 @@ button {
     background-size: cover;
 }
 .header_section{
-    position: fixed;
+    position: sticky;
+    top: 0;
     z-index: 2;
     width: 100%;
+}
+.navbar{
+    position: sticky;
+    top: 0;
 }
 .image_1 {
     width: 100%;
@@ -473,7 +478,7 @@ button {
 }
 
 .see_main{
-    width: 300px;
+    width: 200px;
     margin: 0 auto;
     text-align: center;
 }
